@@ -1,5 +1,7 @@
 package org.adaschool.Weather.data;
 
+import java.util.List;
+
 public class WeatherApiResponse {
 
     private Main main;
@@ -11,6 +13,7 @@ public class WeatherApiResponse {
     public void setMain(Main main) {
         this.main = main;
     }
+
 
     public static class Main {
         private double temperature;
